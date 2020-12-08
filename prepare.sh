@@ -12,7 +12,7 @@ cd docker-osm
 
 if [[ ! -f settings/country.pbf ]]
 then
-    python pbf_downloader.py switzerland
+    python2 pbf_downloader.py switzerland
 fi
 
 docker-compose build
